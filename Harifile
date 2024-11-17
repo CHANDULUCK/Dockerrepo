@@ -1,0 +1,7 @@
+FROM ubuntu
+RUN echo "hi ra" > /tmp/girifile
+RUN apt-get update -y
+RUN apt-get install tree -y
+Run apt-get install apache2 -y
+ENN myname hari
+
